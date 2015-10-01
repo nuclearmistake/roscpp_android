@@ -110,7 +110,7 @@ export RBA_TOOLCHAIN=$prefix/android.toolchain.cmake
 [ -d $prefix/libs/qhull-2012.1 ] || run_cmd get_library qhull $prefix/libs
 [ -d $prefix/libs/octomap-1.6.8 ] || run_cmd get_library octomap $prefix/libs
 [ -d $prefix/libs/yaml-cpp ] || run_cmd get_library yaml-cpp $prefix/libs
-[ -d $prefix/libs/opencv-2.4.9 ] || run_cmd get_library opencv $prefix/libs
+[ -d $prefix/libs/opencv-2.4.11 ] || run_cmd get_library opencv $prefix/libs
 [ -d $prefix/libs/flann ] || run_cmd get_library flann $prefix/libs
 [ -d $prefix/libs/pcl ] || run_cmd get_library pcl $prefix/libs
 [ -d $prefix/libs/bfl-0.7.0 ] || run_cmd get_library bfl $prefix/libs
